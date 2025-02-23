@@ -1,15 +1,15 @@
 #include "main.h"
-
 /**
- * print_alphabet - prints the alphabet in lowercase followed by a new line
+ *  print_alphabet - imprime el alfabeto
+ *
+ *  Return: always void
  */
 void print_alphabet(void)
 {
-char letter;
-
-for (letter = 'a'; letter <= 'z'; letter++)
+char a;
+for (a = 'a' ; a <= 'z'; a++)
 {
-_putchar(letter);
+_putchar(a);
 }
 _putchar('\n');
 }
