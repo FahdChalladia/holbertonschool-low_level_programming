@@ -3,11 +3,14 @@
 #include <time.h>
 
 /**
- * main - Determines if a number is positive, zero, or negative
- * Description: This program generates a random number,
- * checks whether it is positive, negative, or zero,
- * and prints the result.
- */
+* main - Determines if a number is positive, zero, or negative
+* Description: This program generates a random number,
+* checks whether it is positive, negative, or zero,
+* and prints the result.
+*
+* Return: 0 (Success)
+*/
+
 int main(void)
 {
 int n;
