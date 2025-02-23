@@ -2,7 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* betty style doc for function main goes here */
+/**
+ * main - Determines if a number is positive, zero, or negative
+ * Description: This program generates a random number,
+ * checks whether it is positive, negative, or zero,
+ * and prints the result.
+ */
 int main(void)
 {
 int n;
