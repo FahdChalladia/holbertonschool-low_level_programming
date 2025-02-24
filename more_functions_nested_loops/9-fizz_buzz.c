@@ -20,7 +20,7 @@ printf("Buzz");
 x = 1;
 }
 if (x == 0)
-printf("%d", i);      
+printf("%d", i);
 x = 0;
 if (i != 100)
 putchar(' ');
