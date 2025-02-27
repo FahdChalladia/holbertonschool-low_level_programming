@@ -5,7 +5,7 @@
  * @b: pointer to the integer to be updated
  * Return: nothing
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 int c;
 c= *a ;
