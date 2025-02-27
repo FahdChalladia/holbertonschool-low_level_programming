@@ -7,10 +7,6 @@
  */
 void _puts(char *str)
 {
-while (*str)
-{
-putchar(*str);
-str++;
-}
-putchar('\n');
+fputs(str, stdout);
+fputs("\n", stdout);
 }
