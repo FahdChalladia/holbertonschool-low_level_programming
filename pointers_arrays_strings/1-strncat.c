@@ -6,16 +6,16 @@
  * @n: how much we want from src
  * Return: pointer to the destination string
  */
- char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int i = 0;
 int j = 0;
-int n2 =0 ;
+int n2 = 0;
 while (dest[i] != '\0')
 {
 i++;
 }
-while (src[j] != '\0' &&  n2<n)
+while (src[j] != '\0' &&  n2 < n)
 {
 dest[i] = src[j];
 i++;
