@@ -17,7 +17,7 @@ if (_strchr(accept, s[i]) != NULL)
 return (_strchr(accept, s[i]));
 i++;
 }
-return (_strchr(accept, s[i]));
+return (NULL);
 }
 
 
