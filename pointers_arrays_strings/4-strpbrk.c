@@ -14,7 +14,7 @@ int i = 0;
 while (s[i] != '\0')
 {
 if (_strchr(accept, s[i]) != NULL)
-return (_strchr(accept, s[i]));
+return (&s[i]);
 i++;
 }
 return (NULL);
