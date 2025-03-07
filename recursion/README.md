@@ -1,108 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C - Recursion</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f7f7f7;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            color: #FF6347;
-        }
-        h2 {
-            color: #4682B4;
-        }
-        h3 {
-            color: #32CD32;
-        }
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-        ul {
-            list-style-type: none;
-        }
-        li {
-            background-color: #f2f2f2;
-            margin: 10px 0;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .task-heading {
-            font-weight: bold;
-            color: #8A2BE2;
-        }
-        .task-description {
-            color: #696969;
-        }
-        .task-number {
-            color: #FF6347;
-        }
-    </style>
-</head>
-<body>
+![Recursion Image](https://upload.wikimedia.org/wikipedia/commons/2/21/Recursion_Branching.svg)
 
-    <h1>C - Recursion</h1>
-    <p>Welcome to the <strong>C - Recursion</strong> project! This repository contains a set of tasks that help you understand and implement recursion in C.</p>
+# C - Recursion
+This repository contains several tasks demonstrating the concept of recursion in C programming. It covers various recursive functions to help solidify the understanding of recursion in problem-solving.
 
-    <h2>General:</h2>
-    <ul>
-        <li>
-            <h3>What is Recursion?</h3>
-            <p>Recursion is a method where a function calls itself to solve a smaller instance of a problem. It helps break down complex problems into manageable sub-problems.</p>
-        </li>
-        <li>
-            <h3>How to Implement Recursion</h3>
-            <p>1. **Base Case**: Define a condition where the recursion stops.</p>
-            <p>2. **Recursive Case**: The function calls itself with modified parameters to move towards the base case.</p>
-        </li>
-        <li>
-            <h3>When to Implement Recursion</h3>
-            <p>Recursion is useful when the problem can be broken down into smaller, similar sub-problems, such as traversing trees, solving divide-and-conquer problems, and generating sequences (e.g., factorials).</p>
-        </li>
-        <li>
-            <h3>When Not to Implement Recursion</h3>
-            <p>Avoid recursion when it leads to deep recursion, causing stack overflow, or when an iterative solution is more efficient.</p>
-        </li>
-    </ul>
+---
 
-    <h2>TASKS:</h2>
-    <ul>
-        <li>
-            <p class="task-number">0. <span class="task-heading">puts_recursion.c</span></p>
-            <p class="task-description">Function that prints a string, followed by a new line.</p>
-        </li>
-        <li>
-            <p class="task-number">1. <span class="task-heading">print_rev_recursion.c</span></p>
-            <p class="task-description">Function that prints a string in reverse.</p>
-        </li>
-        <li>
-            <p class="task-number">2. <span class="task-heading">strlen_recursion.c</span></p>
-            <p class="task-description">Function that returns the length of a string.</p>
-        </li>
-        <li>
-            <p class="task-number">3. <span class="task-heading">factorial.c</span></p>
-            <p class="task-description">Function that returns the factorial of a given number.</p>
-        </li>
-        <li>
-            <p class="task-number">4. <span class="task-heading">pow_recursion.c</span></p>
-            <p class="task-description">Function that returns the value of x raised to the power of y.</p>
-        </li>
-        <li>
-            <p class="task-number">5. <span class="task-heading">sqrt_recursion.c</span></p>
-            <p class="task-description">Function that returns the natural square root of a number.</p>
-        </li>
-        <li>
-            <p class="task-number">6. <span class="task-heading">is_prime_number.c</span></p>
-            <p class="task-description">Function that returns 1 if the input integer is a prime number, otherwise returns 0.</p>
-        </li>
-    </ul>
+### Table of Contents
+1. **General Concepts** - Overview of recursion, its implementation, and usage.
+2. **Tasks** - Each task is an individual C file that implements a recursive function.
+    - `puts_recursion.c`: Function that prints a string, followed by a new line.
+    - `print_rev_recursion.c`: Function that prints a string in reverse.
+    - `strlen_recursion.c`: Function that returns the length of a string.
+    - `factorial.c`: Function that returns the factorial of a given number.
+    - `pow_recursion.c`: Function that returns the value of `x` raised to the power of `y`.
+    - `sqrt_recursion.c`: Function that returns the natural square root of a number.
+    - `is_prime_number.c`: Function that returns 1 if the input integer is a prime number, otherwise returns 0.
 
-</body>
-</html>
+---
+
+### General:
+
+#### What is Recursion?
+Recursion is a programming technique in which a function calls itself to solve smaller instances of the same problem. It breaks down complex problems into more manageable sub-problems.
+
+#### How to Implement Recursion
+1. **Base Case**: Define the condition that stops the recursion.
+2. **Recursive Case**: Modify the problem so that the function moves closer to the base case with each call.
+
+#### When to Implement Recursion
+- **Hierarchical Data Structures**: Trees and graphs.
+- **Divide and Conquer**: Problems like sorting and searching.
+- **Mathematical Sequences**: Factorial, Fibonacci, etc.
+
+#### When Not to Implement Recursion
+- **Memory Issues**: If recursion depth could be very large and lead to stack overflow.
+- **Performance**: When an iterative solution would be more efficient.
+
+---
+
+### Tasks:
+
+#### 0. `puts_recursion.c`
+- **Description**: Prints a string, followed by a new line.
+- **Test Output**: 
+    ```bash
+    Hello, Recursion!
+    ```
+
+#### 1. `print_rev_recursion.c`
+- **Description**: Prints a string in reverse using recursion.
+- **Test Output**: 
+    ```bash
+    !noitcusreC ,olleH
+    ```
+
+#### 2. `strlen_recursion.c`
+- **Description**: Returns the length of a string recursively.
+- **Test Output**: 
+    ```bash
+    Length of 'Hello': 5
+    ```
+
+#### 3. `factorial.c`
+- **Description**: Returns the factorial of a given number recursively.
+- **Test Output**: 
+    ```bash
+    Factorial of 5: 120
+    ```
+
+#### 4. `pow_recursion.c`
+- **Description**: Returns the value of `x` raised to the power of `y`.
+- **Test Output**: 
+    ```bash
+    2 raised to the power of 3: 8
+    ```
+
+#### 5. `sqrt_recursion.c`
+- **Description**: Returns the natural square root of a number.
+- **Test Output**: 
+    ```bash
+    Square root of 16: 4
+    ```
+
+#### 6. `is_prime_number.c`
+- **Description**: Returns 1 if the input integer is a prime number, otherwise returns 0.
+- **Test Output**: 
+    ```bash
+    Is 7 a prime number? Yes
+    Is 10 a prime number? No
+    ```
+
+---
+
+### Resources:
+
+Here are some useful resources related to recursion and the C programming language:
+
+- [Recursion - GeeksforGeeks](https://www.geeksforgeeks.org/recursion/)
+- [The C Programming Language](https://www.tutorialspoint.com/cprogramming/)
+- [Recursion and Problem Solving](https://www.freecodecamp.org/news/recursion-in-programming/)
+- [Factorial Calculation in C](https://www.programiz.com/c-programming/examples/factorial)
+
+---
+
+### Creator:
+
+**Fahd Challadia**  
+Projects from the week: March 2025 - March 2025 (C - Recursion)
