@@ -40,53 +40,31 @@ Recursion is a programming technique in which a function calls itself to solve s
 
 #### 0. `puts_recursion.c`
 - **Description**: Prints a string, followed by a new line.
-- **Test Output**: 
-    ```bash
-    Hello, Recursion!
-    ```
+
 
 #### 1. `print_rev_recursion.c`
 - **Description**: Prints a string in reverse using recursion.
-- **Test Output**: 
-    ```bash
-    !noitcusreC ,olleH
-    ```
+
 
 #### 2. `strlen_recursion.c`
 - **Description**: Returns the length of a string recursively.
-- **Test Output**: 
-    ```bash
-    Length of 'Hello': 5
-    ```
+
 
 #### 3. `factorial.c`
 - **Description**: Returns the factorial of a given number recursively.
-- **Test Output**: 
-    ```bash
-    Factorial of 5: 120
-    ```
+
 
 #### 4. `pow_recursion.c`
 - **Description**: Returns the value of `x` raised to the power of `y`.
-- **Test Output**: 
-    ```bash
-    2 raised to the power of 3: 8
-    ```
+
 
 #### 5. `sqrt_recursion.c`
 - **Description**: Returns the natural square root of a number.
-- **Test Output**: 
-    ```bash
-    Square root of 16: 4
-    ```
+
 
 #### 6. `is_prime_number.c`
 - **Description**: Returns 1 if the input integer is a prime number, otherwise returns 0.
-- **Test Output**: 
-    ```bash
-    Is 7 a prime number? Yes
-    Is 10 a prime number? No
-    ```
+
 
 ---
 
