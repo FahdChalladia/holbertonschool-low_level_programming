@@ -71,4 +71,4 @@ Here are some useful resources related to C programming and the compilation proc
 
 ### Creator:
 **Fahd Challadia**  
-Projects from the week: 17-March 2025 - 23-March 2025 (C - Hello, World)
+Projects from the week: 17-February 2025 - 23-February 2025 (C - Hello, World)
