@@ -1,4 +1,4 @@
-![Recursion Image](https://upload.wikimedia.org/wikipedia/commons/2/21/Recursion_Branching.svg)
+![Recursion Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40abhimanyudas_97088%2Fa-systematic-approach-to-write-recursive-functions-without-the-headache-f89419444355&psig=AOvVaw3EBulbtrdXYp6G3ytro7f8&ust=1741439274800000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCswPuE-IsDFQAAAAAdAAAAABAE)
 
 # C - Recursion
 This repository contains several tasks demonstrating the concept of recursion in C programming. It covers various recursive functions to help solidify the understanding of recursion in problem-solving.
