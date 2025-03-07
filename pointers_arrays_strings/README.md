@@ -47,4 +47,4 @@ Function that converts a string to an integer.
 ### Creator:
 
 **Fahd Challadia**  
-Projects from the week: 17-February 2025 - 23-February 2025 (C - Pointers, Arrays, and Strings)
+Projects from the week: 24-February 2025 - 02-March 2025 (C - Pointers, Arrays, and Strings)
