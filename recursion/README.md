@@ -1,7 +1,3 @@
-![Recursion Image](https://miro.medium.com/v2/resize:fit:828/format:webp/1*atfa1iKRmkmu3IV_F6cI9A.jpeg =25%)
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Recursion_Branching.svg" width="25%" />
-
-
 # C - Recursion
 This repository contains several tasks demonstrating the concept of recursion in C programming. It covers various recursive functions to help solidify the understanding of recursion in problem-solving.
 
