@@ -91,4 +91,4 @@ This project introduces the basic concepts of variables, conditionals, and loops
 
 ### Creator:
 **Fahd Challadia**  
-Projects from the week: 17-March 2025 - 23-March 2025 (C - Variables, if, else, while)
+Projects from the week: 17-February 2025 - 23-February 2025 (C - Variables, if, else, while)
