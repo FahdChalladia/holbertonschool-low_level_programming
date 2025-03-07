@@ -58,17 +58,6 @@ C programming is a structured, procedural programming language used to develop s
 
 ---
 
-### Resources:
-
-Here are some useful resources related to C programming and the compilation process:
-
-- C Programming Language - Tutorial
-- The C Programming Language
-- Understanding C Compilation Process
-- Betty Coding Style
-
----
-
 ### Creator:
 **Fahd Challadia**  
 Projects from the week: 17-February 2025 - 23-February 2025 (C - Hello, World)
