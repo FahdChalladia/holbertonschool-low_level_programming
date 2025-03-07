@@ -1,50 +1,41 @@
-# C - Pointers, Arrays, and Strings
+# C - Even More Pointers, Arrays, and Strings
 
-This project covers the basic concepts of pointers, arrays, and strings in C programming. The tasks in this repository are designed to help understand and practice working with pointers, memory, and string manipulation without using the standard library functions like `printf`, `puts`, and `strlen`. The functions focus on manipulating data directly through pointers.
+This project builds on the basic concepts of pointers, arrays, and strings in C programming. It is designed to help you further understand and practice working with pointers, memory, and string manipulation without using the standard library functions like `printf`, `puts`, and `strlen`. The focus is on manipulating data directly through pointers and memory management.
 
 ## Learning Objectives
 
-- Understand and use pointers and arrays in C.
-- Differentiate between pointers and arrays.
-- Manipulate strings without using the standard string functions.
-- Manage variable scope in C.
+- Understand how to work with multidimensional arrays.
+- Learn about pointers to pointers and how to manipulate them.
+- Master string manipulation techniques without relying on the standard string functions.
+- Develop a deeper understanding of memory management in C.
 
 ## Tasks
 
-### 0. 98 Battery st.
-Function that takes a pointer to an int as parameter and updates the value it points to to 98.
+### 0. memset
+Function that fills memory with a constant byte.
 
-### 1. Don't swap horses in crossing a stream
-Function that swaps the values of two integers.
+### 1. memcpy
+Function that copies memory area.
 
-### 2. This report, by its very length, defends itself against the risk of being read
-Function that returns the length of a string.
+### 2. strchr
+Function that locates a character in a string.
 
-### 3. I do not fear computers. I fear the lack of them
-Function that prints a string, followed by a new line, to stdout.
+### 3. strspn
+Function that gets the length of a prefix substring.
 
-### 4. I can only go one way. I've not got a reverse gear
-Function that prints a string, in reverse, followed by a new line.
+### 4. strpbrk
+Function that searches a string for any of a set of bytes.
 
-### 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
-Function that reverses a string.
+### 5. strstr
+Function that locates a substring in a string.
 
-### 6. Half the lies they tell about me aren't true
-Function that prints every other character of a string, starting with the first character, followed by a new line.
-
-### 7. Winning is only half of it. Having fun is the other half
-Function that prints half of a string, followed by a new line.
-
-### 8. Arrays are not pointers
-Function that prints n elements of an array of integers, followed by a new line.
-
-### 9. strcpy
-Function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
-
-### 10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers
+### 6. Chess is mental torture
 Function that converts a string to an integer.
+
+### 7. It’s not what you think
+Function that prints a string in reverse.
 
 ### Creator:
 
 **Fahd Challadia**  
-Projects from the week: 24-February 2025 - 02-March 2025 (C - Pointers, Arrays, and Strings)
+Projects from the week: 03-March 2025 - 09-March 2025 (C - Even More Pointers, Arrays, and Strings)
