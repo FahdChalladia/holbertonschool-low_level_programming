@@ -1,4 +1,4 @@
-# C - Pointers, Arrays, and Strings
+# C - More pointers, Arrays, and Strings
 
 This project covers the basic concepts of pointers, arrays, and strings in C programming. The tasks in this repository are designed to help understand and practice working with pointers, memory, and string manipulation without using the standard library functions like `printf`, `puts`, and `strlen`. The functions focus on manipulating data directly through pointers.
 
