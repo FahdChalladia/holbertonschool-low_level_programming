@@ -1,50 +1,42 @@
-# C - Pointers, Arrays, and Strings
+# C - More Pointers, Arrays, and Strings
 
-This project covers the basic concepts of pointers, arrays, and strings in C programming. The tasks in this repository are designed to help understand and practice working with pointers, memory, and string manipulation without using the standard library functions like `printf`, `puts`, and `strlen`. The functions focus on manipulating data directly through pointers.
+This project delves deeper into the concepts of pointers, arrays, and strings in C. It is designed to help understand the more advanced uses of pointers and string manipulation, while also reinforcing the principles of memory management and variable scope in C.
 
 ## Learning Objectives
 
-- Understand and use pointers and arrays in C.
-- Differentiate between pointers and arrays.
-- Manipulate strings without using the standard string functions.
-- Manage variable scope in C.
+- Understand and manipulate arrays and strings using pointers.
+- Work with string concatenation and comparison functions.
+- Handle memory using pointer arithmetic.
+- Develop functions to manipulate and modify string data in various ways.
+- Use arrays for different types of data and manage them effectively in C.
 
 ## Tasks
 
-### 0. 98 Battery st.
-Function that takes a pointer to an int as parameter and updates the value it points to to 98.
+### 0. strcat
+Function that concatenates two strings.
 
-### 1. Don't swap horses in crossing a stream
-Function that swaps the values of two integers.
+### 1. strncat
+Function that concatenates two strings, but with a limit on the number of bytes used from the second string.
 
-### 2. This report, by its very length, defends itself against the risk of being read
-Function that returns the length of a string.
+### 2. strncpy
+Function that copies the string pointed to by `src` to the buffer pointed to by `dest`, with a specified maximum number of bytes.
 
-### 3. I do not fear computers. I fear the lack of them
-Function that prints a string, followed by a new line, to stdout.
+### 3. strcmp
+Function that compares two strings.
 
-### 4. I can only go one way. I've not got a reverse gear
-Function that prints a string, in reverse, followed by a new line.
+### 4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy
+Function that reverses the content of an array of integers.
 
-### 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
-Function that reverses a string.
+### 5. Always look up
+Function that changes all lowercase letters of a string to uppercase.
 
-### 6. Half the lies they tell about me aren't true
-Function that prints every other character of a string, starting with the first character, followed by a new line.
+### 6. Expect the best. Prepare for the worst. Capitalize on what comes
+Function that capitalizes all words of a string.
 
-### 7. Winning is only half of it. Having fun is the other half
-Function that prints half of a string, followed by a new line.
+### 7. Mozart composed his music not for the elite, but for everybody
+Function that encodes a string into 1337.
 
-### 8. Arrays are not pointers
-Function that prints n elements of an array of integers, followed by a new line.
-
-### 9. strcpy
-Function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
-
-### 10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers
-Function that converts a string to an integer.
-
-### Creator:
+## Creator:
 
 **Fahd Challadia**  
-Projects from the week: 24-February 2025 - 02-March 2025 (C - Pointers, Arrays, and Strings)
+Projects from the week: 24-February 2025 - 02-March 2025 (C - More Pointers, Arrays, and Strings)
