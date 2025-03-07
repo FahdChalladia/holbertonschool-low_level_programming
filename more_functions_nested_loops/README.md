@@ -51,10 +51,10 @@ This repository contains several tasks that introduce the basics of C programmin
 
 Here are some useful resources related to C programming, loops, and functions:
 
-- C Programming Language - Tutorial
-- The C Programming Language (K&R)
-- Understanding Nested Loops in C
-- Betty Coding Style
+- [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss&ab_channel=ZackAnnaTutorials)
+- [C - Functions](https://www.tutorialspoint.com/cprogramming/c_functions.htm)
+- [What is the purpose of a function prototype?](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)
+- [C - Header Files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)
 
 ---
 
