@@ -98,4 +98,4 @@ Here are some useful resources related to functions, nested loops, and the C pro
 ### Creator:
 
 **Fahd Challadia**  
-Projects from the week: 17-March 2025 - 23-March 2025 (C - Functions, Nested Loops)
+Projects from the week: 17-February 2025 - 23-February 2025 (C - Functions, Nested Loops)
