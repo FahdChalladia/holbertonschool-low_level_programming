@@ -10,7 +10,8 @@
 int main(int argc, char *argv[])
 {
 (void)argc;
-char *program_name = argv[0];
+char *program_name ;
+*program_name = argv[0];
 while (*program_name)
 {
 _putchar(*program_name);
