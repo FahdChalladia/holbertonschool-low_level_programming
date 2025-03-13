@@ -1,39 +1,31 @@
+#include <stdlib.h>
 #include "main.h"
 
 /**
- * str_concat - Returns a pointer to a newly allocated space in memory
- * @s1: 1st string
- * @s2: 2nd string
- * Return: A pointer to the duplicated string, or NULL.
+ * str_concat - Concatenates two strings into a newly allocated space in memory
+ * @s1: First string (can be NULL)
+ * @s2: Second string (can be NULL)
+ * Return: Pointer to new concatenated string, or NULL on failure
  */
 char *str_concat(char *s1, char *s2)
-
 {
 char *array;
-int i = 0, j = 0, c = 0, k, l, m;
-if (s1 == NULL || s2 == NULL)
-return (NULL);
+int i = 0, j = 0, k, l;
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
 while (s1[i] != '\0')
-{
 i++;
-}
 while (s2[j] != '\0')
-{
 j++;
-}
-c = i + j;
-array = malloc(c* sizeof(char));
-m = 0;
-for (k = 0 ; k<i ; k++)
-{
-    array[m]=s1[k];
-    m++;
-}
-for (l = 0 ; l<j ; j++)
-{
-    array[m]=s2[l];
-    m++;
-}
-array[i] = '\0';
+array = malloc((i + j + 1) * sizeof(char));
+if (array == NULL)
+return (NULL);
+for (k = 0; k < i; k++)
+array[k] = s1[k];
+for (l = 0; l < j; l++)
+array[k + l] = s2[l];
+array[i + j] = '\0';
 return (array);
 }
