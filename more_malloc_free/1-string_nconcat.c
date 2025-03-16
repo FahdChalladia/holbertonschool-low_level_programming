@@ -10,7 +10,7 @@ unsigned int _str_len(char *str)
 {
 unsigned int len = 0;
 if (str == NULL)
-return 0;
+return (0);
 while (str[len] != '\0')
 len++;
 return (len);
