@@ -14,7 +14,7 @@ void *ptr = malloc(b);
 
 if (ptr == NULL)
 {
-exit(98);  // Terminate the process with status 98 if malloc fails.
+exit(98);
 }
 return ptr;
 }
