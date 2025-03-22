@@ -17,15 +17,12 @@ op_t ops[] = {
 {"%", op_mod},
 {NULL, NULL}
 };
-if (*s == '+')
-return (op_add);
-if (*s == '-')
-return (op_sub);
-if (*s == '*')
-return (op_mul);
-if (*s == '/')
-return (op_div);
-if (*s == '%')
-return (op_mod);
+int i = 0;
+while (ops[i].op != NULL)
+{
+if (*(ops[i].op) == *s)
+return (ops[i].f);
+i++;
+}
 return (NULL);
 }
