@@ -1,6 +1,6 @@
 #include <stdarg.h>
 #include <stdio.h>
-#include "function_pointers.h"
+#include "variadic_functions.h"
 
 /**
 *print_all - Prints anything, based on a format string.
