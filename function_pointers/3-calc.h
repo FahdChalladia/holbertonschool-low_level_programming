@@ -1,5 +1,6 @@
 #ifndef _3_CALC_H_
 #define _3_CALC_H_
+#include <stddef.h>
 
 /**
  * struct op - A structure representing an operation
