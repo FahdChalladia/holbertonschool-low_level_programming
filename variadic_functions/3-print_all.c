@@ -12,9 +12,8 @@ void print_all(const char * const format, ...)
 {
 unsigned int i;
 char *str;
-i = 0;
-
 va_list args;
+i = 0;
 va_start(args, format);
 while (format && format[i])
 {
