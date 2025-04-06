@@ -19,7 +19,7 @@ Each task is an individual C file that implements a function or nested loop oper
 - `print_alphabet_x10.c`: 
   Function that prints the alphabet 10 times.
 
-  - `islower.c`: 
+- `islower.c`: 
   Function that checks for a lowercase character.
 
 - `isalpha.c`: 
