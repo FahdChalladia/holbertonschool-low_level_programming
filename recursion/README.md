@@ -6,13 +6,20 @@ This repository contains several tasks demonstrating the concept of recursion in
 ### Table of Contents
 1. **General Concepts** - Overview of recursion, its implementation, and usage.
 2. **Tasks** - Each task is an individual C file that implements a recursive function.
-    - `puts_recursion.c`: Function that prints a string, followed by a new line.
-    - `print_rev_recursion.c`: Function that prints a string in reverse.
-    - `strlen_recursion.c`: Function that returns the length of a string.
-    - `factorial.c`: Function that returns the factorial of a given number.
-    - `pow_recursion.c`: Function that returns the value of `x` raised to the power of `y`.
-    - `sqrt_recursion.c`: Function that returns the natural square root of a number.
-    - `is_prime_number.c`: Function that returns 1 if the input integer is a prime number, otherwise returns 0.
+    - `puts_recursion.c`: 
+      Function that prints a string, followed by a new line.
+    - `print_rev_recursion.c`: 
+      Function that prints a string in reverse.
+    - `strlen_recursion.c`: 
+      Function that returns the length of a string.
+    - `factorial.c`: 
+      Function that returns the factorial of a given number.
+    - `pow_recursion.c`: 
+      Function that returns the value of `x` raised to the power of `y`.
+    - `sqrt_recursion.c`: 
+      Function that returns the natural square root of a number.
+    - `is_prime_number.c`: 
+      Function that returns 1 if the input integer is a prime number, otherwise returns 0.
 
 ---
 
