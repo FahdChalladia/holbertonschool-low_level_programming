@@ -7,18 +7,30 @@ This repository contains several tasks demonstrating the concept of functions an
 ### Table of Contents
 1. **General Concepts** - Overview of functions, nested loops, and their applications.
 2. **Tasks** - Each task is an individual C file that implements a function or nested loop operation.
-    - `putchar.c`: Function that prints a character.
-    - `print_alphabet.c`: Function that prints the alphabet in lowercase.
-    - `print_alphabet_x10.c`: Function that prints the alphabet 10 times.
-    - `islower.c`: Function that checks for a lowercase character.
-    - `isalpha.c`: Function that checks for an alphabetic character.
-    - `print_sign.c`: Function that prints the sign of a number.
-    - `abs.c`: Function that computes the absolute value of an integer.
-    - `print_last_digit.c`: Function that prints the last digit of a number.
-    - `jack_bauer.c`: Function that prints every minute of the day.
-    - `times_table.c`: Function that prints the 9 times table.
-    - `add.c`: Function that adds two integers and returns the result.
-    - `print_to_98.c`: Function that prints all natural numbers from n to 98.
+    - `putchar.c`: 
+      Function that prints a character.
+    - `print_alphabet.c`: 
+      Function that prints the alphabet in lowercase.
+    - `print_alphabet_x10.c`: 
+      Function that prints the alphabet 10 times.
+    - `islower.c`: 
+      Function that checks for a lowercase character.
+    - `isalpha.c`: 
+      Function that checks for an alphabetic character.
+    - `print_sign.c`: 
+      Function that prints the sign of a number.
+    - `abs.c`: 
+      Function that computes the absolute value of an integer.
+    - `print_last_digit.c`: 
+      Function that prints the last digit of a number.
+    - `jack_bauer.c`: 
+      Function that prints every minute of the day.
+    - `times_table.c`: 
+      Function that prints the 9 times table.
+    - `add.c`: 
+      Function that adds two integers and returns the result.
+    - `print_to_98.c`: 
+      Function that prints all natural numbers from n to 98.
 
 ---
 
