@@ -17,6 +17,7 @@
 - **`C`** - Bit manipulation.
 - **`C`** - File I/O.
 - **`C`** - Singly linked lists.
+- **`C`** - Doubly linked lists.
 
 ####
 
