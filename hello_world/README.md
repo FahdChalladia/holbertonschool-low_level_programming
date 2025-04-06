@@ -7,13 +7,20 @@ This repository contains several tasks that introduce the basic concepts of C pr
 ### Table of Contents
 1. **General Concepts** - Overview of C programming, its compilation, and structure.
 2. **Tasks** - Each task is an individual C file that implements basic functions and introduces you to the foundational structure of a C program.
-    - `0-preprocessor.c`: Script that runs a C file through the preprocessor and saves the result.
-    - `1-compiler.c`: Script that compiles a C file without linking.
-    - `2-assembler.c`: Script that generates the assembly code of a C program.
-    - `3-name.c`: Script that compiles a C file and creates an executable named `cisfun`.
-    - `4-puts.c`: C program that prints a string using the `puts` function.
-    - `5-printf.c`: C program that prints a string using the `printf` function.
-    - `6-size.c`: C program that prints the size of various types on the system it is compiled on.
+    - `0-preprocessor.c`: 
+      Script that runs a C file through the preprocessor and saves the result.
+    - `1-compiler.c`: 
+      Script that compiles a C file without linking.
+    - `2-assembler.c`: 
+      Script that generates the assembly code of a C program.
+    - `3-name.c`: 
+      Script that compiles a C file and creates an executable named `cisfun`.
+    - `4-puts.c`: 
+      C program that prints a string using the `puts` function.
+    - `5-printf.c`: 
+      C program that prints a string using the `printf` function.
+    - `6-size.c`: 
+      C program that prints the size of various types on the system it is compiled on.
 
 ---
 
