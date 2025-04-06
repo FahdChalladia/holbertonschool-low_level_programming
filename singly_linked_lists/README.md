@@ -8,7 +8,6 @@ Each file implements a specific operation related to singly linked lists.
 
 ### Files and Prototypes
 
-<<<<<<< HEAD
 - `0-print_list.c`   
   Prints all elements of a `list_t` list.
 
