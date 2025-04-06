@@ -4,7 +4,7 @@ This repository contains several tasks demonstrating the implementation and mani
 
 ---
 
-**Tasks** - Each task is implemented in its own C file, focusing on a specific operation on a dlistint_t structure:
+**Tasks** - Each task is implemented in its own C file, focusing on a specific operation on a dlistint_t structure.
     - `0-print_dlistint.c`: Function that prints all the elements of a dlistint_t list.
     - `1-dlistint_len.c`: Function that returns the number of elements in a linked dlistint_t list.
     - `2-add_dnodeint.c`: Function that adds a new node at the beginning of a dlistint_t list.
