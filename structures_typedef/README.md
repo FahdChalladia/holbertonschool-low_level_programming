@@ -1,31 +1,23 @@
-C - Structures, typedef
+# C - Structures, typedef
 
 This repository contains several tasks demonstrating the concept of structures and typedef in C programming.
 
----
+### Files
 
-### Tasks :
+- `dog.h`
+  Header file contain prototypes and dog struct .
 
+- `1-init_dog.c`
+  Function that initialize a variable of type struct dog
 
-#### 0. `dog.h`
-- **Description**: Define a new type struct dog .
+- `2-print_dog.c`
+  Function that prints a struct dog
 
-#### 1. `init_dog.c`
-- **Description**: Function that initialize a variable of type struct dog
+- `4-new_dog.c`
+  Function that creates a new dog.
 
-#### 2. `print_dog.c`
-- **Description**: Function that prints a struct dog
-
-#### 3. `dog.h`
-- **Description**: Define a new type dog_t as a new name for the type struct dog.
-
-#### 4. `new_dog.c`
-- **Description**: Function that creates a new dog.
-
-#### 5. `dog.h`
-- **Description**: Function that frees dogs.
-
-
+- `5-free_dog.h`
+  Function that frees dogs.
 
 ### Creator:
 
