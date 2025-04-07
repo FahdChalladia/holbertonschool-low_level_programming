@@ -2,15 +2,7 @@
 
 This repository contains several tasks that introduce the basics of C programming, focusing on nested loops and functions. It includes various tasks that help demonstrate essential programming concepts, including looping structures, function usage, and simple terminal outputs.
 
----
-
-
-**General Concepts** - Overview of C programming, focusing on nested loops and basic functions.
-
-
----
-
-### Tasks:
+### Files
 
 0. `0-isupper.c`
     - **Description**: Function that checks if a character is uppercase.
@@ -45,19 +37,7 @@ This repository contains several tasks that introduce the basics of C programmin
 10. `10-print_triangle.c`
     - **Description**: Function that prints a right-angle triangle made of `#` characters.
 
----
-
-### Resources:
-
-Here are some useful resources related to C programming, loops, and functions:
-
-- [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss&ab_channel=ZackAnnaTutorials)
-- [C - Functions](https://www.tutorialspoint.com/cprogramming/c_functions.htm)
-- [What is the purpose of a function prototype?](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)
-- [C - Header Files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)
-
----
-
 ### Creator:
+
 **Fahd Challadia**  
 Projects from the week: 24-February 2025 - 02-March 2025 (C - More Functions, More Nested Loops)
