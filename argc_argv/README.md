@@ -6,7 +6,7 @@ This project is part of the curriculum at Holberton School. It focuses on unders
 
 Each file implements a specific task related to command-line arguments.
 
-### Files and Tasks
+### Files
 
 - `0-whatsmyname.c`
   Prints the name of the program itself.
