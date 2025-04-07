@@ -2,10 +2,7 @@
 
 This repository contains several tasks demonstrating the concept of variadic functions in C programming. It covers various implementations of variadic functions, including handling a variable number of arguments, printing different types of data, and processing them efficiently using macros like va_start, va_arg, and va_end.
 
-
----
-
-**Tasks** 
+### Files 
 
 Each task is an individual C file that implements a function or nested loop operation.
 
