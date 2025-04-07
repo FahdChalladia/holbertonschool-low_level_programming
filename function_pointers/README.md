@@ -2,11 +2,9 @@
 
 This repository contains several tasks demonstrating the concept of function pointers in C programming. It covers various implementations of function pointers, including their use in callbacks, passing functions as arguments, and dynamic function selection, to help solidify the understanding of advanced function handling in C.
 
----
+### Files 
 
-**Tasks** 
-
-Each task is an individual C file that implements a function or nested loop operation.
+Each task is an individual C file that implements a pointer function
 
 - `0-print_name.c`: 
   Function that prints a name.
