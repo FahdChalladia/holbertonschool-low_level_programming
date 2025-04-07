@@ -2,9 +2,7 @@
 
 This repository contains several tasks demonstrating the implementation and manipulation of doubly linked lists in C. It covers node operations such as insertion, deletion, traversal, and memory management, providing a hands-on understanding of dynamic data structures with bidirectional pointers.
 
----
-
-## Tasks
+### Files
 
 Each task is implemented in its own C file, focusing on a specific operation on a `dlistint_t` structure.
 
