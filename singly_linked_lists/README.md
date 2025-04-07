@@ -8,7 +8,7 @@ Each file implements a specific operation related to singly linked lists.
 
 ### Files 
 
-- `0-print_list.c` :  
+- `0-print_list.c` :
   Prints all elements of a `list_t` list.
 
 - `1-list_len.c` :
