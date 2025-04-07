@@ -12,6 +12,7 @@ int i = 0;
 while (head != NULL)
 {
 i = i + head->n;
+head = head->next;
 }
 return (i);
 }
