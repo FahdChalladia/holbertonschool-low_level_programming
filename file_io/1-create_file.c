@@ -22,7 +22,7 @@ if (fd == -1)
 return (-1);
 else if (text_content == NULL)
 {
-return (1);
+return (-1);
 }
 bytesWritten = write(fd, text_content, strlen(text_content));
 if (bytesWritten == -1)
