@@ -17,7 +17,7 @@ if (filename == NULL)
 {
 return (-1);
 }
-fd = open(filename, O_WRONLY);
+fd = open(filename, O_CREAT | O_WRONLY | O_RDONLY);
 if (fd == -1)
 return (-1);
 else if (text_content == NULL)
