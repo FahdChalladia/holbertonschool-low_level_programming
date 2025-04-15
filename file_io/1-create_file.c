@@ -4,7 +4,7 @@
 #include <string.h>
 #include <fcntl.h>
 /**
- * append_text_to_file - Appends text at the end of a file.
+ * create_file - Function that creates a file.
  * @filename: pointer to the filename
  * @text_content: number of letters to read and print
  * Return: the actual number of letters it could read and print
@@ -17,7 +17,7 @@ if (filename == NULL)
 {
 return (-1);
 }
-fd = open(filename, O_CREAT | O_WRONLY | O_RDONLY);
+fd = open(filename, O_WRONLY | O_CREAT, 0600);
 if (fd == -1)
 return (-1);
 else if (text_content == NULL)
