@@ -24,7 +24,6 @@ fd_from = open(argv[1], O_RDONLY);
 if (fd_from == -1)
 {
 dprintf(STDOUT_FILENO, "Error: Can't read from file %s\n", argv[1]);
-printf("98\n");
 exit(98);
 }
 fd_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
