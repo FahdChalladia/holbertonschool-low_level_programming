@@ -25,13 +25,15 @@ return (0);
 bytesRead = read(fd, buffer, letters);
 if (bytesRead == -1)
 {
+close(fd);
 return (0);
+}
+
 bytesWritten = write(STDOUT_FILENO, buffer, bytesRead);
 if (bytesWritten != bytesRead)
 {
     close(fd);
     return (0);
-}
 }
 close(fd);
 return (bytesRead);
