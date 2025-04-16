@@ -17,7 +17,7 @@ if (filename == NULL)
 {
 return (0);
 }
-fd = open(filename, O_RDONLY | O_APPEND);
+fd = open(filename, O_RDONLY | O_APPEND , 0600);
 if (fd == -1)
 {
 return (0);
