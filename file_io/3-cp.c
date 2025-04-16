@@ -31,7 +31,7 @@ if (fd_to == -1)
 {
 dprintf(2, "Error: Can't write to %s\n", argv[2]);
 close(fd_from);
-exit(98);
+exit(99);
 }
 while ((r = read(fd_from, buf, BUF_SIZE)) > 0)
 {
@@ -40,14 +40,14 @@ if (w != r)
 {
 dprintf(2, "Error: Can't write to %s\n", argv[2]);
 close(fd_from), close(fd_to);
-exit(98);
+exit(99);
 }
 }
 if (r == -1)
 {
 dprintf(2, "Error: Can't read from file %s\n", argv[1]);
 close(fd_from), close(fd_to);
-exit(99);
+exit(98);
 }
 if (close(fd_from) == -1)
 {
