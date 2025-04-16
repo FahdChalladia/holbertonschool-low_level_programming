@@ -23,8 +23,7 @@ exit(97);
 fd_from = open(argv[1], O_RDONLY);
 if (fd_from == -1)
 {
-dprintf(2, "Error: Can't read from file %s\n", argv[1]);
-exit(98);
+dprintf(2, "Error: Can't read from file %s\n 98", argv[1]);
 }
 fd_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 if (fd_to == -1)
