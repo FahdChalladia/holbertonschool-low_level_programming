@@ -40,7 +40,7 @@ if (w != r)
 {
 dprintf(2, "Error: Can't write to %s\n", argv[2]);
 close(fd_from), close(fd_to);
-exit(99);
+exit(98);
 }
 }
 if (r == -1)
