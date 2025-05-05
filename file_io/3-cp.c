@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 int fd_from, fd_to, read_bytes, write_bytes;
 char buffer[1024];
 if (argc != 3)
-print_error(97, "Usage: cp %s %s\n", "file_from file_to");
+print_error(97, "Usage: cp file_from file_to\n", "");
 fd_from = open(argv[1], O_RDONLY);
 if (fd_from == -1)
 print_error(98, "Error: Can't read from file %s\n", argv[1]);
